@@ -18,4 +18,3 @@
 
 ; (contains? {:a nil :b 2} :a)
 
-(= 5 (last [1 2 3 4 5]))

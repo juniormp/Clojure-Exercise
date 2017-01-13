@@ -57,8 +57,7 @@
 (defn ler-letra! [] (read-line))
 ;; converte string para inteiro e multiplica por 7
 (defn converte-para-inteiro []
-  (* 7 (Integer/parseInt (ler-letra!)))
-)
+  (* 7 (Integer/parseInt (ler-letra!))))
 
 ;; Utiliza o método contaisn do JAVA pois clojure roda na JVM
 (.contains lista 1)
